@@ -1,8 +1,8 @@
 public class BmiService {
     public double calculate(double a, double b) {
-        double c = a / 100;
-        double cost = (c*c);
-        double index = b / cost;
+        double height = a / 100;
+        double square = (height * height);
+        double index = b / square;
         return index;
     }
 }
